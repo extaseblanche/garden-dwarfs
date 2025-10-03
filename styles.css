@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f5e9;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+#garden-area {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 100px);
+    cursor: pointer;
+}
+
+.dwarf {
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    background-image: url('dwarf.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.dwarf:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
