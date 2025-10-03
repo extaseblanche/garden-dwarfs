@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60" height="80" viewBox="0 0 60 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Crown -->
+  <path d="M20 15 L30 5 L40 15 L35 15 L40 20 L20 20 L25 15 Z" fill="#ffd700" />
+  
+  <!-- Face -->
+  <circle cx="30" cy="30" r="10" fill="#ffccaa" />
+  
+  <!-- Eyes -->
+  <circle cx="26" cy="28" r="1.5" fill="#000000" />
+  <circle cx="34" cy="28" r="1.5" fill="#000000" />
+  
+  <!-- Smile -->
+  <path d="M26 33 Q30 36 34 33" fill="none" stroke="#000000" stroke-width="1" />
+  
+  <!-- Hair -->
+  <path d="M20 20 Q15 30 20 40 L40 40 Q45 30 40 20 Z" fill="#ffcc00" />
+  
+  <!-- Dress -->
+  <path d="M25 40 L20 70 L40 70 L35 40 Z" fill="#ff69b4" />
+  
+  <!-- Arms -->
+  <rect x="15" y="45" width="10" height="5" fill="#ffccaa" />
+  <rect x="35" y="45" width="10" height="5" fill="#ffccaa" />
+  
+  <!-- Feet -->
+  <ellipse cx="25" cy="75" rx="5" ry="2" fill="#ff69b4" />
+  <ellipse cx="35" cy="75" rx="5" ry="2" fill="#ff69b4" />
+</svg>

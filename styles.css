@@ -44,3 +44,19 @@ h1 {
     transform: scale(1.2);
     z-index: 2;
 }
+
+.princess {
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    background-image: url('princess.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.princess:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
